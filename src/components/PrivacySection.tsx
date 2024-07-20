@@ -46,7 +46,7 @@ const PrivacySection = () => {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.5, delay: 0.4 }}
         >
-          We won't share your answers with anyone (and won't ever tell you which friends said what about you)
+            {`We won't share your answers with anyone (and won't ever tell you which friends said what about you)`}
         </motion.p>
         <motion.div
           className="mt-6"
